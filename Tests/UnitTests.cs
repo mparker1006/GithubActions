@@ -32,6 +32,6 @@ public class Addition
     {
         Assert.AreEqual(3, Program.Power("3", "1"));
         Assert.AreEqual(9, Program.Power("3", "2"));
-        Assert.AreEqual(26, Program.Add("3", "3"));
+        Assert.AreEqual(27, Program.Add("3", "3"));
     }
 }
