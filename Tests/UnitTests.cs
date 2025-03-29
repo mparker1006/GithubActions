@@ -26,4 +26,12 @@ public class Addition
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Add(null, "1"));
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Add(null, null));
 	}
+
+    [TestMethod]
+    public void test_power_parker()
+    {
+        Assert.AreEqual(3, Program.Power("3", "1"));
+        Assert.AreEqual(9, Program.Power("3", "2"));
+        Assert.AreEqual(26, Program.Add("3", "3"));
+    }
 }
